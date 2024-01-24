@@ -13,4 +13,28 @@ This is a collection of bricks that I will help developers enhancing their exper
 
 ## Guide to use
 
+### Install mason
+
+`dart pub global activate mason_cli`
+
+### Add module brick
+
+`mason add -g module --git-url https://github.com/syedmurtaza108/custom-bricks.git --git-path module`
+
+### Use brick
+
+`mason make module`
+
+## Outputs 📦
+
+```
+├── module
+    ├──cubit   ├── module_cubit.dart
+    ├──di      ├── module_module.dart
+    ├──models  ├── module_state.dart
+    ├──network ├── module_service.dart
+    ├──view    ├── module_page.dart
+               ├── module_route.dart
+
+```
 
