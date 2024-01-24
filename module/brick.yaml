@@ -1,0 +1,19 @@
+name: module
+description: A new brick created with the Mason CLI.
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.52 <0.1.0"
+
+vars:
+  filename:
+    type: string
+    description: widget filename
+    default: my_file
+    prompt: File name?
+  isStateless:
+    type: boolean
+    description: Make a stateless widget
+    default: true
+    prompt: is stateless?
