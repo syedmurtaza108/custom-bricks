@@ -1,5 +1,5 @@
 name: module
-description: A new brick created with the Mason CLI.
+description: Create a module with all necessary files included
 
 version: 0.1.0+1
 
@@ -7,13 +7,10 @@ environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
 
 vars:
-  filename:
+  package_name:
     type: string
-    description: widget filename
-    default: my_file
-    prompt: File name?
-  isStateless:
-    type: boolean
-    description: Make a stateless widget
-    default: true
-    prompt: is stateless?
+    prompt: What is the package name of your app? (e.g. my_app)
+  module_name:
+    type: string
+    default: module
+    prompt: What is the module name? (e.g. login)
