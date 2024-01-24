@@ -1,4 +1,4 @@
-import 'package:{{package_name}}/app/screens/login/login.dart';
+import 'package:{{package_name}}/app/screens/{{module_name.snakeCase()}}/{{module_name.snakeCase()}}.dart';
 import 'package:{{package_name}}/di/di.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
