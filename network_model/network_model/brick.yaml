@@ -6,8 +6,22 @@ environment:
   mason: ">=0.1.0-dev.52 <0.1.0"
 
 vars:
-  name:
+  model_name:
+    default: model
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: The model name
+    prompt: What is the network model name?
+  additional:
+    type: array
+    defaults: [copyWith, json, toString]
+    description: Extra methods to have
+    prompt: What methods should be included?
+    values:
+      - copyWith
+      - json
+      - toString
+  jsonFile:
+    default: ""
+    type: string
+    description: Json file from which the attribute should be taken
+    prompt: Json file? (You can skip if you don't have any)

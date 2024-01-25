@@ -1,0 +1,2 @@
+@override
+String toString() => '{{model_name.pascalCase()}}({{#properties}}{{name.camelCase()}}: ${{name.camelCase()}}{{^isLastProperty}}, {{/isLastProperty}}{{/properties}})';

@@ -1,0 +1,1 @@
+Map<String, dynamic> toJson() => _${{model_name.pascalCase()}}ToJson(this);
