@@ -25,7 +25,7 @@ This is a collection of bricks that I will help developers enhancing their exper
 
 `mason make module`
 
-## Outputs 📦
+## Outputs 
 
 ```
 ├── module
